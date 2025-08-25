@@ -1,0 +1,12 @@
+#!/bin/bash
+
+kubectl create ns autoscale
+kubectl create ns sound-repeater
+kubectl create ns relative-fawn
+kubectl create ns spline-reticulator
+kubectl create ns priority
+kubectl create ns argocd
+kubectl create ns MariaDB
+
+
+kubectl create -f ./cka/multi.yml
