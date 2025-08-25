@@ -1,0 +1,5 @@
+#!/bin/bash
+kubectl create -f ./cka/multi.yml
+echo "   "
+echo "   " 
+echo "Exam Environment is Ready......"
