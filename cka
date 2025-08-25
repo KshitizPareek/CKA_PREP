@@ -1,0 +1,3 @@
+#!/bin/bash
+
+  cp -arvf ./backend /usr/local/bin/
