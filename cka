@@ -1,4 +1,8 @@
 #!/bin/bash
+ cp -arvf cka /usr/local/bin/
+ cp -arvf cka /usr/local/bin/
+ chmod +x /usr/local/bin/cka
+ bash
 
 kubectl create ns autoscale
 kubectl create ns sound-repeater
@@ -7,6 +11,7 @@ kubectl create ns spline-reticulator
 kubectl create ns priority
 kubectl create ns argocd
 kubectl create ns MariaDB
-
-
 kubectl create -f ./cka/multi.yml
+
+
+echo "Exam Environment is Ready......"
